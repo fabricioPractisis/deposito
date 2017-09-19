@@ -25,7 +25,8 @@
     <preference name="android-minSdkVersion" value="7" />
     <preference name="android-installLocation" value="auto" />
     <!--Plugin de notificaciones -->
-    <gap:plugin name="com.phonegap.plugins.pushplugin"/>
+    <gap:plugin name="com.adobe.plugins.pushplugin" version="1.3.3" /> 
+    
     <access origin="*" />
     <icon src="icon.png" />
     <icon gap:platform="android" gap:qualifier="ldpi" src="www/res/icon/android/icon-36-ldpi.png" />
